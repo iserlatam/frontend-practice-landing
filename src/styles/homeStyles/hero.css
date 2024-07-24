@@ -1,0 +1,17 @@
+.section .wrap {
+    @apply flex flex-row justify-between items-center
+}
+
+.section .wrap .content {
+    @apply w-[64%] flex flex-col gap-4
+}
+
+.section .wrap .content .title {
+    @apply text-[64px] font-bold text-neutral-gray;
+    line-height: 76px;
+}
+
+.section .wrap .content .paragraph {
+    @apply text-neutral-gray;
+    line-height: 24px;
+}

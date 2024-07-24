@@ -1,0 +1,23 @@
+@import url('./styles/homeStyles/navbar.css');
+@import url('./styles/homeStyles/hero.css');
+
+/* COMPONENTS */
+.btn{
+    @apply px-5 py-[10px] text-[14px]
+}
+
+.btn.md {
+    @apply px-8 py-4 text-base
+}
+
+.btn.primary {
+    @apply  text-white font-bold bg-primary rounded
+}
+
+.btn.secondary{
+    @apply px-5 py-[10px] text-[14px] text-primary font-bold bg-transparent rounded
+}
+
+.section {
+    @apply px-[100px] py-[96px] flex flex-row justify-center items-center
+}

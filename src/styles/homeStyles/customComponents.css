@@ -1,0 +1,5 @@
+@layer components {
+    .btn-primary {
+        @apply px-5 py-[10px] text-[14px] text-white bg-primary rounded
+    }
+}
